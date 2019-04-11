@@ -1,22 +1,23 @@
 {
 	"name": "testingserver",
+	"author": "Laryna Billinghurst",
 	"version": "1.0.0",
 	"description": "Server Testing Project",
 	"main": "index.js",
 	"scripts": {
 		"server": "nodemon index.js",
-		"test": "cross-env DB_ENV=testing jest --watch --verbose",
+		"test": "cross-env DB_ENV=testing jest --watch ",
 		"start": "node index.js"
 	},
 	"jest": {
 		"testEnvironment": "node"
+
 	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/LambdaSchool/Server-Testing.git"
 	},
 	"keywords": [],
-	"author": "Laryna Billinghurst",
 	"license": "ISC",
 	"bugs": {
 		"url": "https://github.com/LambdaSchool/Server-Testing/issues"
