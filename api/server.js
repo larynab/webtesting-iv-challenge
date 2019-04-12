@@ -10,6 +10,7 @@ server.use(express.json());
 //ROOT
 server.get('/', async (req, res) => {
   res.status(200).json({ api: 'up' });
+  // res.status(200).send('Hail');
 });
 //HOBBITS
 server.get('/hobbits', async (req, res) => {
